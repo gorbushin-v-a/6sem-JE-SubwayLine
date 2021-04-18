@@ -1,7 +1,0 @@
-di2\component\DumbComponent.class
-di2\service\DumbService.class
-di2\model\Product.class
-di2\config\ApplicationConfig.class
-di2\component\SampleComponent.class
-di2\service\SampleService.class
-SampleApplication.class
