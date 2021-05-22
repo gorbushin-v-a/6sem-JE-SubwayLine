@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>vsu.kurs3</groupId>
-    <artifactId>task.subwayLine</artifactId>
+    <artifactId>task.subwayLine.hiber</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <build>
@@ -23,11 +23,12 @@
         </plugins>
     </build>
 
-    <dependencies><dependency>
+    <dependencies>
+        <dependency>
         <groupId>org.hibernate</groupId>
         <artifactId>hibernate-core</artifactId>
         <version>5.4.27.Final</version>
-    </dependency>
+        </dependency>
 
         <dependency>
             <groupId>org.apache.tomcat</groupId>
