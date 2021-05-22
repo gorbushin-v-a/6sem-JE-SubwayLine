@@ -1,7 +1,5 @@
 package subwayLine.model;
 
-import javax.persistence.*;
-
 public class Station {
 
     private Integer id;
