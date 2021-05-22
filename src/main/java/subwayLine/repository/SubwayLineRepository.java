@@ -1,6 +1,6 @@
-package di2.repository;
+package subwayLine.repository;
 
-import di2.model.SubwayLine;
+import subwayLine.model.SubwayLine;
 
 public interface SubwayLineRepository {
 

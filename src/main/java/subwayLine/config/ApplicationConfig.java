@@ -1,4 +1,4 @@
-package di2.config;
+package subwayLine.config;
 
 import org.springframework.context.annotation.Configuration;
 

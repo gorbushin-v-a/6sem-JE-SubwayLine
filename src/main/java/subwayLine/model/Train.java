@@ -1,4 +1,4 @@
-package di2.model;
+package subwayLine.model;
 
 public class Train {
 

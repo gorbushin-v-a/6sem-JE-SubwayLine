@@ -1,6 +1,6 @@
-package di2.repository;
+package subwayLine.repository;
 
-import di2.model.TrainFactory;
+import subwayLine.model.TrainFactory;
 
 import java.util.List;
 

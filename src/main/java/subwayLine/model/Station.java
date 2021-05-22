@@ -1,18 +1,34 @@
-package di2.model;
+package subwayLine.model;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "station")
 public class Station {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+
     //private double chanceOfDelay;
+
+    @Column(name = "name", nullable = false)
     private String name;
-    private di2.model.Train train;
+
+    //private subwayLine.model.Train train;
 
     public Station(){
-
     }
 
     public Station(String name){
         this.name = name;
-        this.train = null;
+        //this.train = null;
         //this.delayTime = delayTime;
+    }
+
+    public Station(Integer id, String name) {
+        this.id = id;
+        this.name = name;
     }
 
     public String getName() {
@@ -23,11 +39,27 @@ public class Station {
         this.name = name;
     }
 
-    public Train getTrain() {
+    /** public Train getTrain() {
         return train;
+    } **/
+
+    /** public void setTrain(Train train) {
+        this.train = train;
+    } **/
+
+    public Integer getId() {
+        return id;
     }
 
-    public void setTrain(Train train) {
-        this.train = train;
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "Station{" +
+                "id=" + id +
+                ", name='" + name +
+                "'}";
     }
 }

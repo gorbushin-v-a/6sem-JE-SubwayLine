@@ -1,4 +1,4 @@
-package di2.service;
+package subwayLine.service;
 
 public class DumbService {
 }

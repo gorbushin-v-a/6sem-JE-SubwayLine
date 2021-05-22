@@ -1,7 +1,7 @@
-package di2.repository;
+package subwayLine.repository;
 
-import di2.model.Station;
-import di2.model.SubwayLine;
+import subwayLine.model.Station;
+import subwayLine.model.SubwayLine;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;

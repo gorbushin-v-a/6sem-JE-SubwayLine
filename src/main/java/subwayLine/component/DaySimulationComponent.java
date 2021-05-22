@@ -1,4 +1,4 @@
-package di2.component;
+package subwayLine.component;
 
 import org.springframework.stereotype.Component;
 

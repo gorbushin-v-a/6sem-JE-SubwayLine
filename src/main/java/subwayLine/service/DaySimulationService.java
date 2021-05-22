@@ -1,9 +1,9 @@
-package di2.service;
+package subwayLine.service;
 
-import di2.component.DaySimulationComponent;
-import di2.model.Station;
-import di2.model.SubwayLine;
-import di2.repository.SubwayLineRepository;
+import subwayLine.component.DaySimulationComponent;
+import subwayLine.model.Station;
+import subwayLine.model.SubwayLine;
+import subwayLine.repository.SubwayLineRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
